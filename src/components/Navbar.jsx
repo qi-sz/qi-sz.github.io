@@ -52,7 +52,7 @@ const Navbar = () => {
                                         active === Link.title
                                         ? 'text-white'
                                         : 'text-secondary'
-                                        }hover:text-white text-[18px] front-medium cursor-pointer`}
+                                        }font-poppins font-medium cursor-pointer text-[16px]`}
                                     onClick={() => setActive(Link.title)}
                                 >
                             <a href={`#${Link.id}`}>{Link.title}</a>
