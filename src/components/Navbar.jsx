@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <nav className={`{styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
-            <div className="w-full flex justify-between items-center max-w-7xl mx-suto">
+            <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                 <Link
                     to="/"
                     className="flex items-center gap-2"
@@ -19,7 +19,10 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}>
                         <img src={logo} alt="logo" className="w-9 h-10 object-contain" />
-                        <p className="text-white text-[18px] font-bold cursor-pointer">Alan <span className="sm:block hidden">| Qilun Chen</span></p>
+                        <p className="text-white text-[18px] font-bold cursor-pointer flex">
+                            Alan&nbsp;
+                            <span className="sm:block hidden">| Qilun Chen</span>
+                        </p>
                 </Link>
                 <ul className="list-none hidden sm:flex items-flow gap-10">
                     {navLinks.map((Link) => (
@@ -53,7 +56,10 @@ const Navbar = () => {
                                         ? 'text-white'
                                         : 'text-secondary'
                                         }font-poppins font-medium cursor-pointer text-[16px]`}
-                                    onClick={() => setActive(Link.title)}
+                                    onClick={() => {
+                                        setToggle(!toggle);
+                                        setActive(Link.title)
+                                    }}
                                 >
                             <a href={`#${Link.id}`}>{Link.title}</a>
                         </li>

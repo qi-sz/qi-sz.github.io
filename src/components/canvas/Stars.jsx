@@ -1,9 +1,9 @@
 import React from "react";
 
-const Star = () => {
+const Stars = () => {
     return (
-        <div>Star</div>
+        <div>Stars</div>
     );
 }
 
-export default Star;
+export default Stars;
