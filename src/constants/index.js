@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    betterply,
+    uhotel,
   } from "../assets";
   
   export const navLinks = [
@@ -35,6 +37,10 @@ import {
       title: "Work",
     },
     {
+      id: "project",
+      title: "Project",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -42,15 +48,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Analyst",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Scientist",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI Engineer",
       icon: backend,
     },
     {
@@ -116,54 +122,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Guest Service Agent",
+      company_name: "Uhotel Fifth Avenue",
+      icon: uhotel,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2016– June 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Monitored hotel room sales and managed group bookings, resulting in the establishment of long-term business relationships with agencies and a 30% increase in revenue.",
+        "Provided excellent customer service to accommodate guests' requests and handle complaints, leading to a 25% increase in guest loyalty and more positive reviews for the hotel",
+        "Maintained up-to-date records of transactions related to front desk operations, improving the reception area workflow by implementing new organizational techniques initiative which reduced waiting time for customers by 35%",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Technical Support Specialist",
+      company_name: "Betterply",
+      icon: betterply,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "February 2023– August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Optimized excel functions significantly by improving efficiency and reducing redundancy, which cut down the wait time from 2 minutes to 1 second.",
+        "Leveraged Apps Script and Google Sheets extensions to create a demo website, effectively transforming a Google spreadsheet into a simple database, which contributed to a 25% increase in revenue.",
+        "Assembled and troubleshooted new computers, software, printers, and Wi-Fi routers for the sales team, enhancing team productivity by 40% and maintaining a smoother workflow.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
