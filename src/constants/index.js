@@ -25,6 +25,9 @@ import {
     threejs,
     betterply,
     uhotel,
+    coffee,
+    nba,
+    pneumonia,
   } from "../assets";
   
   export const navLinks = [
@@ -177,67 +180,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pneumonia-Detection",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Identifying pneumonia in patients through image-based deep learning techniques. The project utilizes chest X-ray images to detect signs of pneumonia, aiming to assist in early diagnosis and treatment. The repository includes Jupyter Notebook files and PDFs detailing the methodology and findings.",
       tags: [
         {
-          name: "react",
+          name: "TensorFlow",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "NumPy",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Pandas",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pneumonia,
+      source_code_link: "https://github.com/nkbuddy/Pneumonia-Detection",
     },
     {
-      name: "Job IT",
+      name: "NBA Shooting Analysis",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Analyze NBA shooting data from the 2014-2015 season to determine if machine learning can accurately predict the success of a shot based on external factors within a coach's influence.",
       tags: [
         {
-          name: "react",
+          name: "Scikit-learn",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "XGBoost",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Matplotlib & Seaborn",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: nba,
+      source_code_link: "https://github.com/nkbuddy/NBA-shooting",
     },
     {
-      name: "Trip Guide",
+      name: "Capstone Coffee Recommendation",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developing a coffee recommendation system. The project involves web scraping over 1,000 coffee reviews from CoffeeReview.com, followed by data cleaning and exploratory data analysis (EDA). A key aspect of the analysis is examining the correlation between coffee prices and review scores using linear regression.",
       tags: [
         {
-          name: "nextjs",
+          name: "BeautifulSoup",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "NLP",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Pandas",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: coffee,
+      source_code_link: "https://github.com/nkbuddy/coffee-recommendation-system",
     },
   ];
   

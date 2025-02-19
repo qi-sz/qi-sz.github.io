@@ -32,6 +32,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import coffee from "./COFFEE_ICON.png";
+import nba from "./NBA_SHOOTING.png";
+import pneumonia from "./Pneumonia_classification.png";
+
 export {
   logo,
   backend,
@@ -63,4 +67,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  coffee,
+  nba,
+  pneumonia,
 };
